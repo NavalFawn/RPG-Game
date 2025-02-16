@@ -56,8 +56,8 @@
 
 ***
 ## *Авторство*
-- 👤 Автор - Артём Павелков
-- 🔗 GitHub: [GitHub](https://github.com/NavalFawn)
-- 🚀 Проект: [RPG Game](https://github.com/NavalFawn/character_creation_module_game)
+- 👤 Автор - Артём Павелков;
+- 🔗 GitHub: [GitHub](https://github.com/NavalFawn);
+- 🚀 Проект: [RPG Game](https://github.com/NavalFawn/character_creation_module_game).
 ### *Дата создания*
-🕒 Февраль, 2025
+🕒 Февраль, 2025.
