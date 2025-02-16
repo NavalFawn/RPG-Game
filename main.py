@@ -1,16 +1,18 @@
 from random import randint
 from graphic_arts.start_game_banner import run_screensaver
 
-# Константное значение атаки.
+
+# Константное значение атаки
 DEFAULT_ATTACK = 5
-# Константное значение защиты.
+# Константное значение защиты
 DEFAULT_DEFENCE = 10
-# Константное значение выносливости.
+# Константное значение выносливости
 DEFAULT_STAMINA = 80
 
 
 class Character:
     """Родительский класс типов персонажей."""
+
     BRIEF_DESC_CHAR_CLASS = 'отважный любитель приключений'
     SPECIAL_SKILL = 'Удача'
     SPECIAL_BUFF = 15
@@ -42,6 +44,7 @@ class Character:
 
 class Warrior(Character):
     """Унаследованный класс персонажа Воитель."""
+
     BRIEF_DESC_CHAR_CLASS = (' дерзкий воин ближнего боя. '
                              'Сильный, выносливый и отважный')
     RANGE_VALUE_ATTACK = (3, 5)
@@ -52,6 +55,7 @@ class Warrior(Character):
 
 class Mage(Character):
     """Унаследованный класс персонажа Маг."""
+
     BRIEF_DESC_CHAR_CLASS = (' находчивый воин дальнего боя. '
                              'Обладает высоким интеллектом')
     RANGE_VALUE_ATTACK = (5, 10)
@@ -62,6 +66,7 @@ class Mage(Character):
 
 class Healer(Character):
     """Унаследованный класс персонажа Лекарь."""
+
     BRIEF_DESC_CHAR_CLASS = (' могущественный заклинатель. '
                              'Черпает силы из природы, веры и духов')
     RANGE_VALUE_ATTACK = (-3, -1)
